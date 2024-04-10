@@ -1,0 +1,28 @@
+.item-input {
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    background-color: rgb(26, 26, 26);
+    outline: none;
+    border: 2px solid #434242;
+    color: #fff;
+    padding-left: .8rem;
+    font-weight: 600;
+}
+
+.item-input:focus {
+    border: 2px solid #b7b7b7;
+}
+
+.add-button {
+    height: 45px;
+    width: 70px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+

@@ -1,0 +1,36 @@
+li {
+    list-style: none;
+    width: 300px;
+    position: relative;
+    right: 15px;
+    padding: 8px 10px 8px 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+li:hover {
+    background-color: rgb(50, 50, 50);
+    border-radius: 5px;
+}
+
+
+.delete-button {
+    background-color: rgb(210, 9, 9);
+    border: none;
+    width: 60px;
+    border-radius: 2px;
+    height: 30px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: rgba(210, 9, 9, 0.869);
+}
+
+.todo-item {
+    font-size: 1rem;
+    font-weight: 600;
+}
